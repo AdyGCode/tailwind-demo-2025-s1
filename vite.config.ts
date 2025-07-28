@@ -6,6 +6,9 @@ export default defineConfig({
         tailwindcss(),
     ],
     root: 'src',
+    server: {
+        port: 5175
+    },
     build: {
         outDir: '../assets',
         emptyOutDir: true,
